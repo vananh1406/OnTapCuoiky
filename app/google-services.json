@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "400920178571",
+    "project_id": "ontapck-fc53c",
+    "storage_bucket": "ontapck-fc53c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400920178571:android:462f7992b9296180e2c98e",
+        "android_client_info": {
+          "package_name": "com.example.ontapcuoiky"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "400920178571-tootaft8v36t1n7sncg09u164fid4lvf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAOgoXxx86VGtEtAuTLLvzvtKhhQPjEd8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "400920178571-tootaft8v36t1n7sncg09u164fid4lvf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
