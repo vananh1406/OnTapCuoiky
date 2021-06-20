@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:background="@drawable/backgroud">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="324dp"
+        android:layout_height="192dp"
+
+        android:layout_marginTop="68dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_psychology_24" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="267dp"
+        android:layout_height="48dp"
+        android:background="@drawable/button"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawablePadding="16dp"
+        android:hint="User Name"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:autoSizeTextType="none"
+        app:drawableTintMode="src_in"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintHorizontal_bias="0.464"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        tools:layout_editor_absoluteY="321dp" />
+
+    <TextView
+        android:id="@+id/tvPass"
+        android:layout_width="264dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button"
+        android:drawableLeft="@drawable/ic_baseline_lock_open_24"
+        android:hint="Password"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/tvName"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tvName"
+        tools:layout_editor_absoluteY="400dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="267dp"
+        android:layout_height="54dp"
+        android:background="@drawable/button"
+        android:text="Login"
+        app:layout_constraintEnd_toEndOf="@+id/tvPass"
+        app:layout_constraintHorizontal_bias="0.884"
+        app:layout_constraintStart_toStartOf="@+id/tvPass"
+        tools:layout_editor_absoluteY="499dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="FORGOT PASSWORD ?"
+        android:textSize="14"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/button"
+        app:layout_constraintStart_toStartOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>
